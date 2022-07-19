@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content input {
+  padding: 2px 15px;
+  width: 20%;
+  text-align: center;
+  margin-left: 120px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+
+  height: 55vh;
+}
+.ok {
+  margin-left: 8px;
+}
+.list {
+  margin-top: 15px;
+}
+.list2 {
+  margin-top: 15px;
+}
+.list3 {
+  margin-top: 15px;
+}
+
+.hosbetter {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.error {
+  color: red;
+}
+.error1 {
+  color: red;
+}
+.error2 {
+  color: red;
+}
